@@ -16,7 +16,6 @@ namespace OO_Examples
         public abstract void move();
     }
 
-
     public class MotorVehicle :Vehicle
     {
         public Engine engine;

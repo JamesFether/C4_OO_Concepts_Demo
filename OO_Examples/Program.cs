@@ -10,6 +10,21 @@ namespace OO_Examples
     {
         static void Main(string[] args)
         {
+
+            IContainer s = new Shelf();
+
+            Chest c = new Chest();
+
+
+            c.Open();
+            c.Unlock();
+            c.Open();
+            c.PutItemIn("Shield");
+            c.Close();
+            c.Lock();
+
+
+            /*
             // declaring variables - note classes are DATA TYPES TOO
             int myNum;
             Engine engine;
@@ -58,6 +73,8 @@ namespace OO_Examples
             //h1.Eat();
             //h1.move();
             //h1.Poop();
+
+    */
 
             Console.ReadKey();
         }
